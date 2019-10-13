@@ -35,5 +35,28 @@ public class Zad10 {
             }
             System.out.println();
         }
+
+        String traingle = "";
+        for (int i = 1; i <= x; i++) {
+            for (int j = 1; j <= i; j++) {
+                traingle += "X";
+            }
+            traingle += "\n";
+        }
+        System.out.println(traingle);
+
+
+        String traingle2 = "";
+        for (int i = x; i >=1 ; i--) {
+            for (int j = 1; j <= i; j++) {
+                traingle2 += "X";
+            }
+            traingle2 += "\n";
+        }
+        System.out.println(traingle2);
+
+
+
+
     }
 }

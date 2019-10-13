@@ -1,0 +1,27 @@
+
+
+1)
+- Stwórz napis "Jaki dowolny tekst"
+- Zamien na tablie znaków (toCharArray())
+- Znajdz przy pomocy petli pierwsza
+    pozyjce znaku 'o'
+
+
+2) Wygeneruj string z alfabetem "A...Z"
+3) Stworz tablice 10 kolejnych
+    wielokrotoności liczby 2
+4) Stworz tabliczke mnozenia o wymiarach NxM
+5) Przy pomocy petli podnieś
+    liczbe a do potegi b
+
+6) Stworz tablice z 1 na dwóch przekątnych
+
+7) Stworz tablice 0, 1....10
+    - oblicz sume wszystkich elementów
+    - oblicz srednia
+    - oblicz sume liczb patrzystych
+    - oblicz sume liczb nieparzystych
+8) Oblicz silnie dowolnej liczby
+9) Sprawdz czy liczba jest pierwsza
+10) Wyświetl dzielniki("same liczby pierwsze")
+    danej liczby
