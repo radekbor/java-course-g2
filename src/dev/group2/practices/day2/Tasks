@@ -33,3 +33,17 @@ HomeWork:
 9) Sprawdz czy liczba jest pierwsza
 10) Wyświetl dzielniki("same liczby pierwsze")
     danej liczby
+
+
+11) Stwórz tablice wszystkich dzielników wybranej liczby
+12) Podziel zdanie na słowa i policz srednią ilość znaków w słowie.
+    Skorzystaj z lorem ipsum.
+13) Wylicz przyblizenie liczby PI:
+    Wygeneruj 1000 par liczb z przedzialu 0-1
+    Dla kazdej pary sprawdz czy odleglosc punktu (x, y) jest mniejsza/rowna od 1
+    jesli jest mniejsza/rowna  to dodaj do licznika.
+    Na koniec licznik podziel przez 4000.
+    Do wygenerowania liczby z przedzialu 0-1 użyj
+    klasy Random,
+    Random r = new Random()
+    r.nextDouble()
