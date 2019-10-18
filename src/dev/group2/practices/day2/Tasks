@@ -42,7 +42,7 @@ HomeWork:
     Wygeneruj 1000 par liczb z przedzialu 0-1
     Dla kazdej pary sprawdz czy odleglosc punktu (x, y) jest mniejsza/rowna od 1
     jesli jest mniejsza/rowna  to dodaj do licznika.
-    Na koniec licznik podziel przez 4000.
+    Na koniec licznik podziel przez 1000 i pomnoż przez 4.
     Do wygenerowania liczby z przedzialu 0-1 użyj
     klasy Random,
     Random r = new Random()
