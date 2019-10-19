@@ -20,12 +20,17 @@ public class Zad17 {
 
 class BottleV3 {
 
-    public BottleV3(int capacity) {
+    public BottleV3(int capacity, int currentLevel) {
         this.capacity = capacity;
+        this.currentLevel = currentLevel;
+    }
+
+    public BottleV3(int capacityAndCurrentLevel) {
+        this(capacityAndCurrentLevel, capacityAndCurrentLevel);
     }
 
     public BottleV3() {
-
+        this(20);
     }
 
     final int capacity;
