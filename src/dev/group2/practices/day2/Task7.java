@@ -4,7 +4,7 @@ public class Task7 {
 
     public static void main(String[] args) {
         int[] initArray  = new int[11];
-        for (int i = 0; i <= initArray.length; i++) {
+        for (int i = 0; i < initArray.length; i++) {
             initArray[i] = i;
         }
         int sum = 0;
@@ -13,16 +13,16 @@ public class Task7 {
         for (int i = 0; i < initArray.length; i++) {
             sum += initArray[i];
             if (i % 2 == 0) {
-                evenSum = initArray[i];
+                evenSum += initArray[i];
             } else {
-                oddSum = initArray[i];
+                oddSum += initArray[i];
             }
         }
         // mozna zrobic sume na koncu z evenSum + oddSum
         int avg = sum / initArray.length;
-        System.out.print("sum: " + sum);
-        System.out.print("avg: " + args);
-        System.out.print("even sum: " + evenSum);
-        System.out.print("odd sum: " + oddSum);
+        System.out.println("sum: " + sum);
+        System.out.println("avg: " + avg);
+        System.out.println("even sum: " + evenSum);
+        System.out.println("odd sum: " + oddSum);
     }
 }
