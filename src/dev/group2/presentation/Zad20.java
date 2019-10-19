@@ -9,7 +9,7 @@ public class Zad20 {
         BottleV4 b1 = new BottleV4(initialCapacity);
         BottleV4 b2 = new BottleV4(initialCapacity);
 
-//        System.out.println(b1.equals("napis"));
+        System.out.println(b1.equals("napis"));
         System.out.println(b1.equals(b2));
         System.out.println(b1.hashCode());
 
@@ -25,8 +25,12 @@ class BottleV4 {
 
     @Override
     public boolean equals(Object obj) {
-        BottleV4 other = (BottleV4)obj;
-        return this.capacity == other.capacity;
+        if (obj instanceof BottleV4) {
+            BottleV4 other = (BottleV4)obj;
+            return this.capacity == other.capacity;
+        } else {
+            return false;
+        }
     }
 
     @Override
