@@ -1,0 +1,20 @@
+
+
+
+
+Stworz klasa reprezentujace figury geometryczne
+
+- Figure
+    - metoda pole
+    - metoda obwód
+- Kwadrat
+- Kolo
+- Prostokat
+- Wielokat
+- Elipsa
+figure -> wielokat -> prostokat -> kwdrat
+
+Podpowiedzi:
+Brak konstruktora dla Figury
+Wielokat: ilosc bokow
+Elipsa: dwa parametry

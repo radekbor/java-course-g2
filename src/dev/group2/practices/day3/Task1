@@ -1,0 +1,20 @@
+Task1 - Shapes
+
+
+- Korzystając z wybranych pojeć;
+    - enum
+    - klasa abstrakcyjna
+    - interface
+
+- Zbuduj "system"/paczke
+    - W ktorym bedą następujące elementy
+
+    - Shape
+    - Rectangle
+    - Square
+    - Circle
+    - Triangle
+
+    - Kazdy element powienien móc okreslić
+        - pole
+        - obwód
