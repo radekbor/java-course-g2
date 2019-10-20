@@ -1,0 +1,10 @@
+Ex 2 - school marks
+
+
+- Dany uczeń musi podejsc do 5 egazaminow
+- Z kazdego egzaminu moze dostac ocene
+    - Od 1 do 5
+- Powinnismy moc sprawdzic srednia
+    - Gdy uczen podszedl do wszystkich egzaminow zwroc srednia
+    - W przeciwnym wypadku zwroc 0
+
