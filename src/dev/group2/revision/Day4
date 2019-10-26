@@ -1,0 +1,37 @@
+
+
+
+
+
+
+Stworz klase Miejsce
+    - dwa pola:
+        - (Strefa A-F) , jako enum
+        - Nr miejsca, jako liczba dodatnia
+
+    ** Wymaganie dodatkowe:
+        - kontruktor prywatny
+        - Metoda statyczna .create(STREFA, miejsc)
+            - miejsc powinno byc
+            zwalidowane czy jest z przedzialu 0-100
+
+Stworz klase bilet
+    - bilet powinien miec:
+        - cene
+        - miejsce <- uzyj klasy miejsce
+        - nr uzytkownika
+
+- Uzytkownika powinien miec
+        - nr uzytkownika
+        - imie
+        - nazwisko
+
+- Maszyne do biletow
+    - ktora przyjmuje jako konstruktor
+        - tablice uzytkownikow
+        - talblice biletow
+
+    - ma metode getTicket(nrUzytkownika)
+        - ktora zwraca bilet
+
+
