@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+1) Stwórz klasę generyczna ktora przechowuje 3 rozne typy.
+2) Stwórz klasę generyczna która przechowuje
+dwie wartości tego samego typu (rozszerające Comparable),
+<T extends Comparable<T>>
+
+
+i stworz dla twojej klasy, met
+ody min, max (ktore uzyja comparable)
+
+3) - Stwórz liste integerow,
+   - dodaj: 1, 3, 5, 6
+   - usuń 5,
+   - i wyswietl.
+
+4) Stwórz tree seta z dostarczonym comparatorerm
+5) Stwórz tree seta dla klasa ktora implementuje comparable
+
+
+6) Stworz klasę Car
+    - z polem rejestracja
+    - unikalność względem rejestracji.
+
+    - dodaj do seta kilka samochodów
+
+7) Predykat sprawdzajacy czy napis zaczyna sie od "A"
