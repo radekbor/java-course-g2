@@ -4,7 +4,6 @@ package dev.group2.revision.event;
 
 
 
-
 public class Miejsce {
 
     public final Strefa strefa;

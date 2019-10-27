@@ -31,7 +31,7 @@ Stworz klase bilet
         - tablice uzytkownikow
         - talblice biletow
 
-    - ma metode getTicket(nrUzytkownika)
+    - ma metode getTicket(imie, nazwisko)
         - ktora zwraca bilet
 
 

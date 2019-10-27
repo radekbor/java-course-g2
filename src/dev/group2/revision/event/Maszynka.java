@@ -10,8 +10,10 @@ public class Maszynka {
         this.bilets = bilets;
     }
 
-    public Bilet mojBilet(String imie, String nazwisko) {
+    public Bilet mojBilet(String imie, String nazwisko)
+            throws UzytkownikNieIstnieje {
         // znajdz numer uzytkownika
+
         int nrUzytkownika = nrUzytkownika(imie, nazwisko);
 
         // na podstawie numeru znajdz bilet
@@ -31,13 +33,24 @@ public class Maszynka {
         return null;
     }
 
-    private int nrUzytkownika(String imie, String nazwisko) {
+
+    private int nrUzytkownika(String imie, String nazwisko)
+            throws UzytkownikNieIstnieje {
         for (int i = 0; i < uzytkownicy.length; i++) {
             if (uzytkownicy[i].imie.equals(imie) &&
             uzytkownicy[i].nazwisko.equals(nazwisko)) {
                 return uzytkownicy[i].nr;
             }
         }
-        return -1;
+        throw new UzytkownikNieIstnieje(imie, nazwisko);
+    }
+}
+
+class UzytkownikNieIstnieje extends Exception {
+
+    public final String napis;
+
+    UzytkownikNieIstnieje(String imie, String nazwisko) {
+        this.napis = imie + " " +nazwisko;
     }
 }

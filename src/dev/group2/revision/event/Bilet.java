@@ -2,6 +2,8 @@ package dev.group2.revision.event;
 
 public class Bilet {
 
+
+
     public final int cena;
     public final int nrUzytkownika;
     public final Miejsce miejsce;

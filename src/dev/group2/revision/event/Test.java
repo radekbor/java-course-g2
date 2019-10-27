@@ -22,10 +22,17 @@ public class Test {
                 new Bilet[]{b1, b2, b3}
         );
 
-        Bilet f1 = maszynka.mojBilet("X", "Y");
-        System.out.println(f1);
+        try {
 
-        Bilet f2 = maszynka.mojBilet("Jan", "Kowalski");
-        System.out.println(f2);
+            Bilet f2 = maszynka.mojBilet("Jan", "Kowalski");
+            System.out.println(f2);
+
+            Bilet f1 = maszynka.mojBilet("X", "Y");
+            System.out.println(f1);
+
+        } catch (UzytkownikNieIstnieje e) {
+            System.out.println("Nie istnieje" + e.napis);
+        }
+
     }
 }
